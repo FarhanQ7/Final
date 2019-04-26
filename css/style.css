@@ -1,0 +1,129 @@
+/*
+Title: Final Project
+Authors: Farhan Qureshi FQ
+CREATE DATE: April 2019
+PURPOSE: To demonstrate the skills developed in class
+Last Modified: April 2019
+Last Modified By: Farhan Qureshi FQ
+Mofication History: Created
+-->
+
+<!--
+Test information:
+
+Chrome:
+  Programs runs perfectly, not issues with any widgets or ui elements
+FireFox:
+  Programs runs perfectly, not issues with any widgets or ui elements
+Safari:
+  Programs runs perfectly, not issues with any widgets or ui elements
+MacOSX:
+  Programs runs perfectly, not issues with any widgets or ui elements
+-->
+/* defines the style with in body element*/
+body{
+  margin:0;
+  padding:0;
+  background:rgb(0, 174, 255);
+  font-size:18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow:hidden;
+}
+/* defines the style with in class wrapper*/
+.wrapper{
+  width:80%;
+  height:80vh;
+  margin:5% auto;
+  padding:20px;
+  box-sizing:border-box;
+  background:#fff;
+}
+/* overwrites .wrapper defines style for ul*/
+.wrapper ul{
+  display:flex;
+  float:right;
+}
+
+/* overwrites .wrapper creates css rule*/
+.wrapper .rules ul{
+  display:block;
+  float:left;
+}
+
+/* overwrites .wrapper creates css rule*/
+.wrapper .rules ul li{
+  list-style:unset;
+}
+
+/* overwrites .wrapper defines style for ul*/
+.wrapper ul li{
+  list-style:none;
+  margin:0 15px;
+}
+/* overwrites .wrapper defines style for ul*/
+.wrapper ul li a{
+  text-decoration:none;
+  color:#193441;
+  font-weight:700;
+  font-size:18px;
+}
+/*  defines style for .fixed_header class*/
+.fixed_header{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+/*  overwrites style for .fixed_header class defines for element*/
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 450px;
+}
+/*  overwrites style for .fixed_header class defines for element*/
+.fixed_header thead tr {
+   display: block;
+}
+/*  overwrites tyle for .fixed_header class defines for element*/
+.fixed_header thead {
+  background:#7dcde6;
+  color:#fff;
+}
+/*  overwrites style for .fixed_header class defines for element*/
+.fixed_header th, .fixed_header td {
+  padding: 8px;
+  text-align: left;
+  width: 200px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/*  styles register class*/
+.register form input{
+  display:block;
+  font-size:18px;
+  width:300px;
+  padding:10px 20px;
+  border:none;
+  background:inherit;
+  border-bottom:2px solid #7dcde6;
+}
+/*  styles register class*/
+.register form input[type="submit"]{
+  margin-top:40px;
+  border:none;
+  background:#7dcde6;
+  color:#193441;
+}
+/*  styles gallary class*/
+.gallary ul{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-wrap:wrap;
+}
+/*  styles gallary class*/
+.gallary ul li{
+    margin:4px;
+}
